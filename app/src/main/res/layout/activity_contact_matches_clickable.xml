@@ -1,9 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".contactMatches_clickable">
+    android:orientation="vertical"
+    android:padding="15dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/txt_contact_match1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is Send Interest?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_contact_match2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How can i contact members i like?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_contact_match3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I'm a paid member. How to contact a member i like?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_contact_match4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do i know who else is online?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_contact_match5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is AstroMatch?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_contact_match6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I am not getting enough matches. What do i do?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_contact_match7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to shortlist profiles that i am interested in?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_contact_match8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My match's contact number is invalid/incorrect.How do report it? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

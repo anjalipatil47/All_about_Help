@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".privacy_clickable">
+    android:orientation="vertical"
+    android:padding="15dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/txt_privacy1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to remove a profile from my suggestions list?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_privacy2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to block a member?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_privacy3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HO do i restrict my profiles from being visible on other search engines such as Google, Bing,etc.?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_privacy4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I came across a fake profile.How do i report it?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_privacy5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What should i do to stop getting phone calls from Bharat Matrimony?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
