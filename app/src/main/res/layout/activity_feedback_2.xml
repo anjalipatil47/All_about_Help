@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txt_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How Was your experience with our app?"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:layout_margin="2dp"
+            android:gravity="top"
+            android:hint="Write your feedback here"
+            android:inputType="text|textMultiLine"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Min.15 Characters"
+            android:layout_marginLeft="150dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/SubmitBtn"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape6"
+            android:text="Submit" />
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="93dp"
+            android:gravity="center"
+            android:text="For any other help, feel free to contact us"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/callus"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/phone"
+                android:layout_marginHorizontal="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.235"
+                />
+
+            <ImageView
+                android:id="@+id/img_chat_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/chat_1"
+                android:layout_marginHorizontal="80dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.235"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

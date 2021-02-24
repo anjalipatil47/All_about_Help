@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matri_help_new">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Matri_help_new">
+        <activity android:name=".Faq17"></activity>
+        <activity android:name=".Faq16" />
+        <activity android:name=".Faq15" />
+        <activity android:name=".Faq14" />
+        <activity android:name=".Faq13" />
+        <activity android:name=".Faq12" />
+        <activity android:name=".Faq11" />
+        <activity android:name=".Faq10" />
+        <activity android:name=".Faq9" />
+        <activity android:name=".Faq8" />
+        <activity android:name=".Faq7" />
+        <activity android:name=".Faq6" />
+        <activity android:name=".Faq5" />
+        <activity android:name=".Faq4" />
+        <activity android:name=".Faq3" />
+        <activity android:name=".Faq2" />
+        <activity android:name=".Faq1" />
+        <activity android:name=".Faq_Txt1" />
+        <activity android:name=".Profile_Txt1" />
+        <activity android:name=".Chat_with_cust" />
+        <activity android:name=".Main_Profile" />
+        <activity android:name=".profile_2" />
+        <activity android:name=".retail_store_2" />
+        <activity android:name=".chat_2" />
+        <activity android:name=".feedback_2" />
+        <activity android:name=".privacy_clickable" />
+        <activity android:name=".otherServices_clickable" />
+        <activity android:name=".contactMatches_clickable" />
+        <activity android:name=".search_clickable" />
+        <activity android:name=".membership_clickable" />
+        <activity android:name=".profile_clickable" />
+        <activity android:name=".profile_faq1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/txt_profile_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to add a photo to my profile?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt_pro_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To upload your photo,tap Home icon > Avatar > Choose option > Select photo >Upload >Done or tap here."
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_pro_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Alternatively, you can send your photos through WhatsApp on +919999999999 or email it to photos@matrimony.com and we will upload them for you."
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_add_pp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please note that it will take up to 1 hour for your photo to be visible to your matches."
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_profile3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Was This FAQ helpful?"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"/>
+    />
+
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YES" />
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+</LinearLayout>

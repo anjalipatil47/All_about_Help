@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Name" type="id" />
+    <item name="img_chat_1" type="id" />
+    <item name="card_cardPrivacy1" type="id" />
+</resources>

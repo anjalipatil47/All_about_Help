@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/txt_profile1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do I Make my profile to be prominent?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="what is profile completeness?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to View my horoscope compatability with another member?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to add a photo to my profile?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How edit to my profile?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to request a member for photo?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="why is my photo not visible on my profile?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to upload my horoscope onto my profile? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to set my horoscope to be visible only to certain profile? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to add an existing copy of my horoscope? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="why am i unable to edit certain fields on my profile? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to set my photo to be visible only to people whom i have contacted / responded to? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/txt_profile13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to log out of my account? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to remove a photo from my profile? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to delete my horoscope? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to temporarily hide/deactive my profile? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_profile17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to delete my profile as my wedding has been fixed? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

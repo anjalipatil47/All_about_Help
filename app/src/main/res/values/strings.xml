@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">matri_help_new</string>
+
+    <string name="FAQs" />
+    <string name="Feedback" />
+    <string name="Chat" />
+    <string name="Find" />
+    <string name="Queries" />
+    <string name="privacy" />
+
+</resources>
