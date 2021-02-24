@@ -3,9 +3,9 @@ package com.example.matri_help_new
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class profile_clickable : AppCompatActivity() {
+class Membership6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile_clickable)
+        setContentView(R.layout.activity_membership6)
     }
 }

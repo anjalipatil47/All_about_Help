@@ -1,9 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".membership_clickable">
+    android:orientation="vertical"
+    android:padding="15dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/txt_mem1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to become a paid member?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="what are the advantages of a paid membership on BharatMatrimony?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are the various membership plans available for my profile?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do i renew my membership on BharatMatrimony?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are the various payment options?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do i change my e-mail address/phone number?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are there any BharatMatrimony offices near me?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How long does it take for membership to be activated? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How  can i be sure that the modes of payment are secqure? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I have made payment. Why isn't my profile upgraded yet? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is assisted service? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do i cancel the Auto Renewal option? "
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txt_mem13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I made payment through cheque. How long does it take for membership to be activated?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

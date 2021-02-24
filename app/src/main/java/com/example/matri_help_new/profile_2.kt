@@ -11,6 +11,7 @@ class profile_2 : AppCompatActivity() {
     var deafault: TextView?=null
 
     private lateinit var txt_profile1 : TextView
+
     private lateinit var txt_profile2 : TextView
     private lateinit var txt_profile3 : TextView
     private lateinit var txt_profile4 : TextView

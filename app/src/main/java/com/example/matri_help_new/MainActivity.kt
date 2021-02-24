@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
         var msg=intent.getStringExtra("Message")
         deafault?.text = ":$msg"
 

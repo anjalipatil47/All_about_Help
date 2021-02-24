@@ -46,7 +46,7 @@ class profile_faq1 : AppCompatActivity() {
            }
 
         cardProfile.setOnClickListener {
-            val intent = Intent(this, profile_clickable::class.java)
+            val intent = Intent(this, profile_2::class.java)
 
             startActivity(intent)
         }
